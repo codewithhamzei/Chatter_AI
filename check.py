@@ -30,7 +30,7 @@ def fetch_transcript(video_id):
         return None
 
 # Initialize Langchain LLM with API key
-llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", api_key='AIzaSyBT7otzDr-MQ8ZS1JCP4Q0hTxnKHQ2ZDf0')
+llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", api_key='AIzaSyDvK6SW6TykrJFcEsen2RRxpkGWevagp90')
 
 # Initialize session state variables
 if 'chat_history' not in st.session_state:
