@@ -33,7 +33,7 @@ def app():
         st.session_state.processed = False 
 
 
-    llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", api_key='AIzaSyBT7otzDr-MQ8ZS1JCP4Q0hTxnKHQ2ZDf0')
+    llm = ChatGoogleGenerativeAI(model="gemini-1.5-flash", api_key='AIzaSyDvK6SW6TykrJFcEsen2RRxpkGWevagp90')
 
     st.subheader("📄 **Upload Your PDF Files**")
 
